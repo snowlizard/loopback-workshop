@@ -19,7 +19,7 @@ jobs:
     steps:
       - heroku/deploy-via-git:
           api-key: $HEROKU_API_KEY
-          app-name: loopback-workshop
+          app-name: loopback--workshop
           branch: main
 
 workflow:
